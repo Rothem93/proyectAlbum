@@ -1,10 +1,10 @@
-import { ClientAlbumsPage } from './app.po';
+import { ClientAlbumPage } from './app.po';
 
-describe('client-albums App', () => {
-  let page: ClientAlbumsPage;
+describe('client-album App', () => {
+  let page: ClientAlbumPage;
 
   beforeEach(() => {
-    page = new ClientAlbumsPage();
+    page = new ClientAlbumPage();
   });
 
   it('should display message saying app works', () => {
