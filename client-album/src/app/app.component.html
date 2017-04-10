@@ -1,0 +1,20 @@
+<header>
+	<a [routerLink]="['']" href=""> 
+		<img id="logo" src="../assets/img/angular2.png" alt="">
+	
+		<div class="title-subtitle">
+			<h1>{{title}}</h1>
+			<p>{{description}}</p>
+		</div>
+	</a>
+	
+	<a [routerLink]="['/crear-album']"  href="" class="btn btn-add-album">
+		Crear Album
+	</a> 
+
+	<div class="clearfix"></div>	
+</header>
+<section id="main" class="main">
+	<router-outlet></router-outlet>
+	<div class="clearfix"></div>
+</section>
