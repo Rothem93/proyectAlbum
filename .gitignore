@@ -1,2 +1,3 @@
 
-api-album/
+api-album/node_modules
+client-album/node_modules
